@@ -7,7 +7,7 @@ namespace :greeting do
 
   desc 'outputs hola, en espanol!'
   task :hola do
-    puts "Hola, como estas?"
+    puts "hola de Rake!"
   end
 end
 
@@ -31,4 +31,3 @@ desc 'drop into Pry console'
 task :console => :environment do
   Pry.start
 end
-  
